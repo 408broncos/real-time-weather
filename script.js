@@ -1,14 +1,11 @@
-const name = document.querySelector("#name")
-const city = document.querySelector("#city")
-const search = document.querySelector("#search")
-const pic = document.querySelector("#pic")
-const temp = document.querySelector("#temperature")
-const humid = document.querySelector("#humidity")
-const wind = document.querySelector("#wind")
-const weather = document.querySelector("#weather")
-const history = document.querySelector("#history")
-const days = document.querySelector("#days")
-
-let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
-
-const APIK = "252319c9d59965743b1509362af81204";
+const searchBtn = document.querySelector("#search");
+const resetBtn = document.querySelector("#reset");
+const historyForm = document.querySelector("#history");
+const weatherDiv = document.querySelector("#weather");
+const cityNameEl = document.querySelector("#city-name");
+const picEl = document.querySelector("#pic");
+const temperatureEl = document.querySelector("#temperature");
+const humidityEl = document.querySelector("#humidity");
+const windEl = document.querySelector("#wind");
+const daysDiv = document.querySelector("#days");
+const API_KEY = "252319c9d59965743b1509362af81204"; 
