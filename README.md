@@ -18,6 +18,7 @@ For this project I was given a task to create a 5 day weather forecast. Our firs
 
 ## Markdown
 
+![Untitled_ Apr 23, 2023 12_36 PM](https://user-images.githubusercontent.com/126821868/233861222-f23c4a7c-10dc-4085-b49c-842231bea4e1.gif)
 
 
 ## Code Examples
